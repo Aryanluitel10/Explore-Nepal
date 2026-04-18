@@ -1,16 +1,67 @@
-# React + Vite
+# 🇳🇵 Explore Nepal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured Nepal travel guide web app built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**.
 
-Currently, two official plugins are available:
+Discover Nepal's top destinations, traditional food, rich culture, ancient history, travel tips, photo gallery, and latest news — all in one beautiful web app.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Destinations** — Explore Kathmandu, Pokhara, Bhaktapur, Lumbini, Chitwan, and more
+- **Food** — Discover traditional Nepali cuisine like momos, dal bhat, sel roti, and more
+- **Culture** — Learn about festivals, traditions, and Nepali way of life
+- **History** — Journey through Nepal's ancient, medieval, and modern history
+- **Travel Guide** — Practical tips for visiting Nepal
+- **Gallery** — Beautiful photo collection of Nepal
+- **News** — Latest updates from Nepal
+- **Multi-language support** — Built-in i18n support
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React + Vite | Frontend framework & build tool |
+| Tailwind CSS | Styling |
+| Framer Motion | Animations |
+| React Router | Page navigation |
+
+---
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+---
+
+## Project Structure
+
+```
+nepal-app/
+├── public/          # Static images and assets
+├── src/
+│   ├── components/  # Navbar, Footer
+│   ├── pages/       # Home, Destinations, Food, Culture, History, Gallery, News, TravelGuide
+│   ├── data/        # Nepal data (nepalData.js)
+│   ├── i18n/        # Multi-language support
+│   ├── App.jsx
+│   └── main.jsx
+└── package.json
+```
+
+---
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
