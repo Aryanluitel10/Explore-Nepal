@@ -19,7 +19,7 @@ const resources = {
           badge: 'Discover the Himalayas',
           title: 'Experience the Magic of',
           titleHighlight: 'Nepal',
-          subtitle: 'Land of the highest peaks, ancient temples, rich culture, and warm smiles. Your journey to the roof of the world begins here.',
+          subtitle: 'Home to 8 of the world\'s 10 highest peaks, thousands of temples, and over 120 ethnic groups. Here\'s where to start.',
           cta: 'Explore Nepal',
           ctaSecondary: 'Watch Video',
           stats: {
@@ -31,15 +31,15 @@ const resources = {
         },
         featured: {
           title: 'Top Destinations',
-          subtitle: 'From the heights of Everest to the tranquil lakes of Pokhara, explore Nepal\'s most breathtaking places.',
+          subtitle: 'From Everest Base Camp to Pokhara\'s lakeside, here are Nepal\'s most visited places.',
         },
         culture: {
           title: 'Rich Cultural Heritage',
-          subtitle: 'Over 120 ethnic groups and 120 languages make Nepal one of the world\'s most culturally diverse nations.',
+          subtitle: 'Over 120 ethnic groups, 120 languages, and centuries of festivals, art, and tradition.',
         },
         quickAccess: {
           title: 'Plan Your Visit',
-          subtitle: 'Everything you need for an unforgettable Nepal experience.',
+          subtitle: 'Browse destinations, food, culture, history and travel tips.',
         }
       },
       destinations: {

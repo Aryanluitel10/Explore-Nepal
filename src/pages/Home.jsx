@@ -35,7 +35,7 @@ const Home = () => {
       subtitle: 'Kathmandu Valley',
     },
     {
-      image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600&q=80',
+      image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=3840&q=100',
       title: "World's Highest Peak",
       subtitle: 'Mount Everest — 8,848m',
     },
@@ -92,18 +92,6 @@ const Home = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4 pt-16">
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
-            className="mb-4"
-          >
-            <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 text-white text-sm font-medium">
-              <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-              🏔️ {t('home.hero.badge')}
-            </span>
-          </motion.div>
-
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -199,7 +187,7 @@ const Home = () => {
           <FadeIn>
             <div className="text-center mb-8">
               <h2 className="text-2xl font-display font-bold text-gray-900">Explore Everything Nepal</h2>
-              <p className="text-gray-500 mt-2">Your gateway to the Himalayan Kingdom</p>
+              <p className="text-gray-500 mt-2">Pick a section to get started</p>
             </div>
           </FadeIn>
           <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-4">
@@ -407,7 +395,7 @@ const Home = () => {
               <h2 className="section-title mb-4">Food That Warms the Soul</h2>
               <div className="divider-nepal mb-4" />
               <p className="text-gray-600 leading-relaxed mb-6">
-                Nepali cuisine is a beautiful blend of Newari, Tibetan, Indian, and mountain influences. From the humble Dal Bhat to steaming momos on a cold mountain evening — every dish tells a story.
+                Nepali food pulls from Newari, Tibetan, and Indian traditions. Dal Bhat is eaten twice a day by most families. Momos are everywhere — steamed, fried, or in soup. The food is simple, filling, and genuinely good.
               </p>
               <div className="grid grid-cols-2 gap-3 mb-6">
                 {foods.slice(0, 4).map((food) => (
@@ -506,7 +494,7 @@ const Home = () => {
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-nepal-gold to-amber-400">of Nepal</span>
                 </h2>
                 <p className="text-white/65 text-base leading-relaxed mb-8">
-                  From the birthplace of Buddha to the world's youngest republic — ancient kingdoms, 240 years of monarchy, civil war, earthquake, and extraordinary resilience.
+                  Nepal has been continuously inhabited for over 2,500 years. It was never colonized, unified under Prithvi Narayan Shah in 1768, and became a republic in 2008. The history is complicated, layered, and worth knowing.
                 </p>
                 <div className="flex flex-wrap gap-3 mb-8">
                   {['Licchavi Dynasty', 'Malla Golden Age', 'Unification 1768', 'Republic 2008'].map((tag) => (
@@ -526,7 +514,7 @@ const Home = () => {
       <section className="py-24 relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1486911278844-a81c5267e227?w=1600&q=80"
+            src="https://images.unsplash.com/photo-1486911278844-a81c5267e227?w=3840&q=100"
             alt="Nepal mountains"
             className="w-full h-full object-cover"
           />
@@ -534,12 +522,11 @@ const Home = () => {
         </div>
         <div className="relative max-w-4xl mx-auto text-center px-4">
           <FadeIn>
-            <div className="text-5xl mb-4">🏔️</div>
             <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-4 leading-tight">
-              Your Himalayan Adventure Awaits
+              Plan Your Trip to Nepal
             </h2>
             <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-              Whether you seek spiritual enlightenment, mountain adventure, cultural immersion, or culinary delights — Nepal has it all.
+              Find destinations, travel tips, cultural guides, and everything else you need before you go.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/destinations" className="btn-outline text-lg px-10 py-4">
